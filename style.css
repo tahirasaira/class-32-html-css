@@ -1,0 +1,35 @@
+.tooltip{
+    position:relative;
+    display:inline-block;
+    background-color: blue;
+    color:white;
+}
+.tooltip.tooltext{
+    visibility:hidden;
+    width:150px;
+    background-color: rgb(255, 94, 0);
+    position: absolute;
+    z-index: 2;
+    padding:1.5px;
+    left:0;
+    bottom:-30px;
+}
+.btn{
+    padding:10px;
+    border-radius: 5px;
+    background-color: yellow;
+    color:white;
+    border:none;
+}
+.btn:hover{
+    cursor:pointer;
+
+}
+.danger{
+    background-color: green;
+    color:black;
+}
+.primary{
+    background-color: blueviolet;
+}
+    
